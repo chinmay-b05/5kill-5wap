@@ -2,12 +2,11 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Suspense } from "react";
 import ChatDataWrapper from "./components/ChatDataWrapper";
 import WithUserHeader from "./components/WithUserHeader";
-
-type PageProps = {
+interface PageProps {
   params: {
     withUserId: string;
   };
-};
+}
 
 export default function Page({ params }: PageProps) {
   return (
