@@ -2,7 +2,6 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Suspense } from "react";
 import ChatDataWrapper from "./components/ChatDataWrapper";
 import WithUserHeader from "./components/WithUserHeader";
-import type { PageProps } from "next";
 
 interface Params {
   withUserId: string;
