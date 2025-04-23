@@ -3,6 +3,12 @@ import { Suspense } from "react";
 import ChatDataWrapper from "./components/ChatDataWrapper";
 import WithUserHeader from "./components/WithUserHeader";
 
+type ChatPageProps = {
+  params: {
+    withUserId: string;
+  };
+};
+
 export default function Page({ params }: { params: { withUserId: string } }) {
   return (
     <div className="flex flex-col grow w-full">
