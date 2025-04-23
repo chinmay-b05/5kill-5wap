@@ -3,13 +3,7 @@ import { Suspense } from "react";
 import ChatDataWrapper from "./components/ChatDataWrapper";
 import WithUserHeader from "./components/WithUserHeader";
 
-type PageProps = {
-  params: {
-    withUserId: string;
-  };
-};
-
-const Page = ({ params }: PageProps) => {
+export default function Page({ params }: { params: { withUserId: string } }) {
   return (
     <div className="flex flex-col grow w-full">
       <Suspense fallback={<Skeleton className="h-[45px] w-full" />}>
@@ -18,7 +12,4 @@ const Page = ({ params }: PageProps) => {
       <ChatDataWrapper toUserId={params.withUserId} />
     </div>
   );
-};
-
-export default Page;
-
+}

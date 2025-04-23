@@ -2,13 +2,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { TypographyH2 } from "@/components/ui/typographyH2";
 import { Suspense } from "react";
 import UserCard from "./components/UserCard";
-type PageProps = {
-  params: {
-    withUserId: string;
-  };
-};
 
-const Page = ({ params }: PageProps) => {
+export default async function Page({ params }: { params: { userId: string } }) {
   return (
     <div className="flex flex-col grow w-full">
       <TypographyH2>View profile</TypographyH2>
@@ -17,5 +12,4 @@ const Page = ({ params }: PageProps) => {
       </Suspense>
     </div>
   );
-};
-export default Page;
+}

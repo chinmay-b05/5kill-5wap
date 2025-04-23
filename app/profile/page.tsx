@@ -13,13 +13,7 @@ import ProfileDataWrapper from "./components/ProfileDataWrapper";
 import { SkillsDataWrapper } from "./components/SkillsDataWrapper";
 import ConnectionsDataWrapper from "./components/ConnectionsDataWrapper";
 
-type PageProps = {
-  params: {
-    withUserId: string;
-  };
-};
-
-const Page = ({ params }: PageProps) => {
+export default async function Page() {
   return (
     <div className="h-px grow w-full max-w-xl">
       <TypographyH2>Profile</TypographyH2>
@@ -73,5 +67,4 @@ const Page = ({ params }: PageProps) => {
       </Tabs>
     </div>
   );
-};
-export default Page;
+}
