@@ -9,7 +9,8 @@ type ChatPageProps = {
   };
 };
 
-export default function Page({ params }: { params: { withUserId: string } }) {
+export default function Page({ params }: ChatPageProps) {
+  const userId = params.withUserId;
   return (
     <div className="flex flex-col grow w-full">
       <Suspense fallback={<Skeleton className="h-[45px] w-full" />}>
