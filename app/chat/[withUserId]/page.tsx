@@ -2,13 +2,13 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Suspense } from "react";
 import ChatDataWrapper from "./components/ChatDataWrapper";
 import WithUserHeader from "./components/WithUserHeader";
-interface PageProps {
-  params: {
-    withUserId: string;
-  };
+nterface Params {
+  withUserId: string;
 }
 
-export default function Page({ params }: PageProps) {
+export default async function Page({ params }: { params: Promise<Params> }) {
+  const { withUserId } = await params;
+
   return (
 
     <div className="flex flex-col grow w-full">
