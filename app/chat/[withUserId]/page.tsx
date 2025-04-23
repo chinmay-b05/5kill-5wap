@@ -7,7 +7,7 @@ type ChatPageProps = {
   params: {
     withUserId: string;
   };
-};
+}
 
 export default function Page({ params }: ChatPageProps) {
   const userId = params.withUserId;
