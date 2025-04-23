@@ -17,4 +17,5 @@ const Page = ({ params }: PageProps) => {
       </Suspense>
     </div>
   );
-}
+};
+export default Page;
