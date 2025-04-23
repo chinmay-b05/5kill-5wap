@@ -1,0 +1,1 @@
+{"kind":"FETCH","data":{"headers":{},"body":"{\"user\":{\"username\":\"Chinmay\",\"profilePicture\":null,\"about\":null,\"id\":\"n3j72h3caj3snvt3\"},\"session\":{\"id\":\"odthmlbfvxcpgqdvm6q4ade2s365wi5uihxba6if\",\"userId\":\"n3j72h3caj3snvt3\",\"fresh\":false,\"expiresAt\":\"2025-05-20T03:41:05.645Z\"}}","status":200,"url":""},"revalidate":31536000,"tags":["user"]}

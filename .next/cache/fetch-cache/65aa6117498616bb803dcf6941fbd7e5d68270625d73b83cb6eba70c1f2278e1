@@ -1,0 +1,1 @@
+{"kind":"FETCH","data":{"headers":{},"body":"{\"user\":{\"username\":\"Agam\",\"profilePicture\":null,\"about\":null,\"id\":\"nkco5z6lbmrw4prc\"},\"session\":{\"id\":\"xaiy3673zwyl4bbfltcrwvm7x6oetyckq6n5ebcu\",\"userId\":\"nkco5z6lbmrw4prc\",\"fresh\":false,\"expiresAt\":\"2025-05-20T05:24:46.032Z\"}}","status":200,"url":""},"revalidate":31536000,"tags":["user"]}

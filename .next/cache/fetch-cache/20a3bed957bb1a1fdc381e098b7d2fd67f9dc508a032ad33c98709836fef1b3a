@@ -1,0 +1,1 @@
+{"kind":"FETCH","data":{"headers":{},"body":"{\"user\":{\"username\":\"Chirag\",\"profilePicture\":null,\"about\":null,\"id\":\"uotfdvf5htixte7a\"},\"session\":{\"id\":\"77x4jbukb7inxctobh5oxq6oq4522c74vv3l7vdw\",\"userId\":\"uotfdvf5htixte7a\",\"fresh\":false,\"expiresAt\":\"2025-05-20T05:25:55.272Z\"}}","status":200,"url":""},"revalidate":31536000,"tags":["user"]}

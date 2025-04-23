@@ -1,0 +1,1 @@
+{"kind":"FETCH","data":{"headers":{},"body":"{\"user\":{\"username\":\"Britney\",\"profilePicture\":null,\"about\":null,\"id\":\"eunx75wuycn54pxj\"},\"session\":{\"id\":\"qaxuabow6kajvayr4fp3uvxokycc72wfawtpcv6d\",\"userId\":\"eunx75wuycn54pxj\",\"fresh\":false,\"expiresAt\":\"2025-05-20T05:24:22.229Z\"}}","status":200,"url":""},"revalidate":31536000,"tags":["user"]}
