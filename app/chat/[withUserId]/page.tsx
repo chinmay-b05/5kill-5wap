@@ -3,14 +3,10 @@ import { Suspense } from "react";
 import ChatDataWrapper from "./components/ChatDataWrapper";
 import WithUserHeader from "./components/WithUserHeader";
 
-type ChatPageProps = {
-  params: {
-    withUserId: string;
-  };
-}
-
-export default function Page({ params }: ChatPageProps) {
+export default async function Page({ params }: { params: { withUserId: string } }) {
   const userId = params.withUserId;
+
+  const user = await getUser(userId);
   return (
     <div className="flex flex-col grow w-full">
       <Suspense fallback={<Skeleton className="h-[45px] w-full" />}>
