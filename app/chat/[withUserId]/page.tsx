@@ -6,8 +6,12 @@ interface Params {
   withUserId: string;
 }
 
-export default async function Page({ params }: { params: Promise<Params> }) {
-  const { withUserId } = await params;
+interface PageProps {
+  params: Params;
+}
+
+export default function Page({ params }: PageProps) {
+  const { withUserId } = params;
 
   return (
 
